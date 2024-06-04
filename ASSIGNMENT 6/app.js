@@ -114,4 +114,5 @@ console.log("The smallest number in the array is: " + smallestNumber);
 for (var i = 1; i <= 20; i++) {
   var multipleOf5 = i * 5;
   console.log(multipleOf5);
+  
 }
