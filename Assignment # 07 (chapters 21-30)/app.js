@@ -110,14 +110,14 @@ document.write("<p> Converted String: " + numAsString + "</p>");
                                   //Q#18
 
 var university = "University of Karachi";
-var array = university.split("" );
-document.write("Array elements: " + array);
-
+for(var i=0; i<university.length; i++){
+     console.log(university.charAt(i));
+}
 
                                //Q#19
-var userInput = prompt("Enter anyThink ???");
-var lastIndexOfuserInput = userInput.lastIndexOf(" ");
-console.log(lastIndexOfuserInput);
+// var userInput = prompt("Enter anyThink ???");
+// var lastIndexOfuserInput = userInput.lastIndexOf(" ");
+// console.log(lastIndexOfuserInput);
 
 
                                            // CHAPTER #25 tO 30
