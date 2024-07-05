@@ -15,43 +15,43 @@
 // document.write("<p>The length of your favorite mobile phone model is: " + inputLength + " characters.</p>");
 
                                             // q3
-var word = "Pakistani";
-var indexOfN = word.indexOf("n");
-document.write("<p>The index of the letter 'n' in the word 'Pakistani' is: " + indexOfN + "</p>");
+// var word = "Pakistani";
+// var indexOfN = word.indexOf("n");
+// document.write("<p>The index of the letter 'n' in the word 'Pakistani' is: " + indexOfN + "</p>");
 
-                                             // q4
-var word = "Hello World";
-var lastIndexOfL = word.lastIndexOf("l");
-document.write("<p>The last index of the letter 'l' in the word 'Hello World' is: " + lastIndexOfL + "</p>");
+//                                              // q4
+// var word = "Hello World";
+// var lastIndexOfL = word.lastIndexOf("l");
+// document.write("<p>The last index of the letter 'l' in the word 'Hello World' is: " + lastIndexOfL + "</p>");
 
-                                                // q5
-var word = "Pakistani";
-var charAtIndex3 = word.charAt(3);
-document.write("The character at the 3rd index in the word 'Pakistani' is: " + charAtIndex3);
+//                                                 // q5
+// var word = "Pakistani";
+// var charAtIndex3 = word.charAt(3);
+// document.write("The character at the 3rd index in the word 'Pakistani' is: " + charAtIndex3);
 
-                                                  // q6
-var firstName = "Syeda";
-var lastName = "Eman";
-var fullName = firstName.concat(" ", lastName);
-console.log("Full Name:" + fullName);
+//                                                   // q6
+// var firstName = "Syeda";
+// var lastName = "Eman";
+// var fullName = firstName.concat(" ", lastName);
+// console.log("Full Name:" + fullName);
 
-                                            // q7
-var originalWord = "Hyderabad";
-var replacedWord = originalWord.replace("Hyder", "Islam");
-document.write("Original Word: " + originalWord + "<br>");
-document.write("After Replacement: " + replacedWord);
+//                                             // q7
+// var originalWord = "Hyderabad";
+// var replacedWord = originalWord.replace("Hyder", "Islam");
+// document.write("Original Word: " + originalWord + "<br>");
+// document.write("After Replacement: " + replacedWord);
 
-                                            // q8
-var message = "Ali and Sami are best friends. They play cricket and football together.";
-var modifiedMessage = message.replace(/and/, "&");
-document.write("Original Message: " + message + "<br>");
-document.write("After Replacement: " + modifiedMessage);
+//                                             // q8
+// var message = "Ali and Sami are best friends. They play cricket and football together.";
+// var modifiedMessage = message.replace(/and/, "&");
+// document.write("Original Message: " + message + "<br>");
+// document.write("After Replacement: " + modifiedMessage);
 
-                                             // q9
-let stringNumber = "472"
-let convertedNumber = Number(stringNumber);
-document.write("<p>Original String: " + stringNumber + " (Type: " + typeof stringNumber + ")</p>");
-document.write("<p>Converted Number: " + convertedNumber + " (Type: " + typeof convertedNumber + ")</p>");
+//                                              // q9
+// let stringNumber = "472"
+// let convertedNumber = Number(stringNumber);
+// document.write("<p>Original String: " + stringNumber + " (Type: " + typeof stringNumber + ")</p>");
+// document.write("<p>Converted Number: " + convertedNumber + " (Type: " + typeof convertedNumber + ")</p>");
 
                                                // // q11
 // const userInput = prompt("Enter text:");
@@ -66,10 +66,10 @@ document.write("<p>Converted Number: " + convertedNumber + " (Type: " + typeof c
 // document.write("<p >Lowercase Text: " + lowercaseText + "</p>");
 
                                               // q14
-var num = 35.36;
-var numAsString = num.toString().replace(".", "");
-document.write("<p> Original Number: " + num + "</p>");
-document.write("<p> Converted String: " + numAsString + "</p>");
+// var num = 35.36;
+// var numAsString = num.toString().replace(".", "");
+// document.write("<p> Original Number: " + num + "</p>");
+// document.write("<p> Converted String: " + numAsString + "</p>");
 
 //                                                 // q15
 
@@ -109,10 +109,10 @@ document.write("<p> Converted String: " + numAsString + "</p>");
 
                                   //Q#18
 
-var university = "University of Karachi";
-for(var i=0; i<university.length; i++){
-     console.log(university.charAt(i));
-}
+// var university = "University of Karachi";
+// for(var i=0; i<university.length; i++){
+//      console.log(university.charAt(i));
+// }
 
                                //Q#19
 // var userInput = prompt("Enter anyThink ???");
@@ -165,23 +165,47 @@ for(var i=0; i<university.length; i++){
 //  document.write("<p>The absolute value of " + number + " is " + absoluteValue + "</p>");
 
                                             //Q#4
-let diceValue = Math.floor(Math.random() * 6) + 1;
-document.write("<p>The dice shows: " + diceValue + "</p>");
+// let diceValue = Math.floor(Math.random() * 6) + 1;q                
+// document.write("<p>The dice shows: " + diceValue + "</p>");
 
-                                            //Q#5
-let coinResult = Math.floor(Math.random() * 2);
-let resultMessage = (coinResult === 0) ? "Heads" : "Tails";
-document.write("<p>The coin shows: " + resultMessage + "</p>");
+//                                             //Q#5
+// let coinResult = Math.floor(Math.random() * 2);
+// let resultMessage = (coinResult === 0) ? "Heads" : "Tails";
+// document.write("<p>The coin shows: " + resultMessage + "</p>");
 
 
-                                           //Q#6
-let randomNumber = Math.floor(Math.random() * 100) + 1;
-document.write("<p>Random number between 1 and 100: " + randomNumber + "</p>");
+//                                            //Q#6
+// let randomNumber = Math.floor(Math.random() * 100) + 1;
+// document.write("<p>Random number between 1 and 100: " + randomNumber + "</p>");
 
-                                           //Q#7
+//                                            //Q#7
 
 
 
 
 
                                        
+
+
+
+
+
+
+
+
+
+
+
+
+                                           
+var date = new Date();
+
+var Months = ["January","February","March","April","May","June","July","August","Septamber","Octuber","December"]
+
+var Days = ["Monday","Tuseday","wedensday","Thusday","Friday","Satarday","sunday"];
+
+console.log(date.getFullYear());
+console.log(date.getMonth());
+console.log(Months[date.getMonth()]);
+console.log(Days[date.getDay()]);
+console.log(date);
