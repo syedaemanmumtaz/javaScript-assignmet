@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    color: #ffffff;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+h1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 40px !important;
+    text-shadow: 6px 0 1px rgba(0, 0, 0, 0.2);
+}
+#studentForm{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+input{
+    background: transparent;
+    border: 0.5px solid white;
+}
+label{
+    font-weight: bolder;
+    padding: 5px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #1a3138;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover{
+    background-color: #7ebe81;
+    transition: background-color 0.5s ease; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 2px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.hidden {
+    display: none;
+}
