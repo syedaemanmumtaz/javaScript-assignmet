@@ -6,13 +6,11 @@ body {
     margin: 0;
     background-color: #000000;
 }
-
 .container {
     text-align: center;
     background-color: black;
     color: #f0f0f0;
 }
-
 .bulb {
     width: 500px;
     height: auto;
